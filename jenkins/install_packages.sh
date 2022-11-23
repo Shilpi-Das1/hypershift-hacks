@@ -9,7 +9,7 @@ mv oc /usr/local/bin/
 mv kubectl /usr/local/bin/
 
 apt update -y
-apt install docker docker.io unzip -y
+apt install unzip -y
 
 curl https://dl.google.com/go/go1.18.linux-amd64.tar.gz -o go1.18.linux-amd64.tar.gz
 
