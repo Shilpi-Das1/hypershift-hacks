@@ -14,7 +14,3 @@ apt install docker docker.io unzip
 curl https://dl.google.com/go/go1.18.linux-amd64.tar.gz -o go1.18.linux-amd64.tar.gz
 
 tar -C /usr/local -xzf go1.18.linux-amd64.tar.gz 
-
-echo "export PATH=$PATH:/usr/local/go/bin" > /etc/environment
-
-source /etc/environment
